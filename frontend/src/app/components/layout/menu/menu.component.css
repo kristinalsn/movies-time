@@ -1,0 +1,12 @@
+div {
+  display: flex;
+  flex-direction:row;
+  margin-left: 550px;
+  margin-top: 30px;
+  gap:20px;
+  font-weight: bold;
+}
+
+.active {
+  font-weight: bold;
+}

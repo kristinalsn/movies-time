@@ -1,0 +1,41 @@
+div {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 20% 60% 20%;
+  grid-template-columns: repeat(6, 1fr);
+  background-image: linear-gradient(to bottom,#fff000, #000000);
+
+  /* border: 2px solid black; */
+}
+
+/* div > * {
+  border: 1px solid rgb(169, 166, 166);
+} */
+
+header {
+  /* background-image: linear-gradient(to bottom,#fff000, #000000); */
+  /* background-color: #fff000; */
+  grid-column: span 6;
+  height: 100px;
+  text-align: center;
+  border-bottom: 1px solid rgb(98, 91, 91);
+
+}
+
+aside {
+  grid-column: span 1;
+  width: 100px;
+
+  /* background-color: pink; */
+  /* text-align: center; */
+  /* padding-top: 100px; */
+}
+
+main {
+  /* background-image: linear-gradient(to bottom,#fff000, #000000); */
+
+  grid-column: span 5;
+  text-align: center;
+
+}
+

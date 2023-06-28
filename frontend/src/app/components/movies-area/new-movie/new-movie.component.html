@@ -1,0 +1,126 @@
+<!-- <p>new-movie works!</p> -->
+<!-- <form (submit)="createMovie()">
+  <label for="cinemaName">Cinema Name</label>
+  
+    <select (change)="onCinemaChange($event)">
+      <option value="">Select a cinema</option>
+      <option *ngFor="let cinema of cinemas" [value]="cinema._id">{{ cinema.name }}</option>
+    </select>
+  
+
+  <label for="name">Movie Name</label>
+    <input
+      type="text"
+      name="name"
+      placeholder="Name"
+      [(ngModel)]="movie.name"
+
+/>
+<label for="dateTime">Movie Date & Time</label>
+
+    <input
+      type="text"
+      name="dateTime"
+      placeholder="DateTime"
+      [(ngModel)]="movie.dateTime"
+
+    />
+    <label for="duration">Movie Duration</label>
+
+    <input
+      type="text"
+      name="duration"
+      placeholder="Duration"
+      [(ngModel)]="movie.duration"
+
+    />
+    <button>Add</button>
+  </form> -->
+
+<!-- <form (submit)="addMovie()">
+    <label for="cinemaName">Cinema Name</label>
+    
+    <select name="cinema"  (change)="onCinemaChange($event)" [(ngModel)]="selectedCinema">
+      <option value="" disabled selected>Select a cinema</option>
+      <option *ngFor="let cinema of cinemas" [value]="cinema">{{cinema.name}}</option>
+    </select>
+  
+    <label for="name">Movie Name</label>
+    <input type="text" name="name" placeholder="Name" [(ngModel)]="movie.name"/>
+  
+    <label for="dateTime">Movie Date & Time</label>
+    <input type="text" name="dateTime" placeholder="DateTime" [(ngModel)]="movie.dateTime"/>
+  
+    <label for="duration">Movie Duration</label>
+    <input type="text" name="duration" placeholder="Duration" [(ngModel)]="movie.duration"/>
+  
+    <button type="submit">Add</button>
+  </form> -->
+
+<!-- <div>
+  <h3>Add Movie:</h3>
+  <form [formGroup]="movieForm" (ngSubmit)="onSubmit()">
+    <div>
+      <label>Movie Name:</label>
+      <input type="text" formControlName="name">
+    </div>
+    <div>
+      <label>Date/Time:</label>
+      <input type="datetime-local" formControlName="dateTime">
+    </div>
+    <div>
+      <label>Duration:</label>
+      <input type="number" formControlName="duration">
+    </div>
+    <button type="submit" [disabled]="!movieForm.valid">Add Movie</button>
+  </form>
+</div>
+
+<div>
+  <label>Select Cinema:</label>
+  <select (change)="onCinemaChange($event)">
+    <option value="">-- Select Cinema --</option>
+    <option *ngFor="let cinema of cinemas" [value]="cinema._id">{{ cinema.name }}</option>
+  </select>
+</div>
+
+<div *ngIf="selectedCinemaId">
+  <h4>Movies:</h4>
+  <ul>
+    <li *ngFor="let movie of movies">{{ movie.name }}</li>
+  </ul>
+</div>
+ -->
+
+<div>
+  <h3>Add Movie:</h3>
+
+  <form [formGroup]="movieForm" (ngSubmit)="onSubmit()">
+
+    <label>Select Cinema:</label>
+    <select (change)="onCinemaChange($event)">
+      <option value="">-- Select Cinema --</option>
+      <option *ngFor="let cinema of cinemas" [value]="cinema._id">{{ cinema.name }}</option>
+    </select>
+  
+
+      <label>Movie Name:</label>
+      <input type="text" formControlName="name">
+
+      <label>Date/Time:</label>
+      <input type="datetime-local" formControlName="dateTime">
+
+      <label>Duration:</label>
+      <input type="number" formControlName="duration">
+
+    <button type="submit" [disabled]="!movieForm.valid">Add Movie</button>
+  </form>
+</div>
+
+
+<!-- <div *ngIf="selectedCinemaId">
+  <h4>Movies:</h4>
+  <ul>
+    <li *ngFor="let movie of movies">{{ movie.name }}</li>
+  </ul>
+</div> -->

@@ -1,0 +1,48 @@
+<!-- <p>movie-list works!</p> -->
+<!-- <div>
+  <select (change)="onCinemaChange($event)">
+    <option value="">Select a cinema</option>
+    <option *ngFor="let cinema of cinemas" [value]="cinema._id">{{ cinema.name }}</option>  </select>
+  
+  <h2 *ngIf="selectedCinema">Movies in {{ selectedCinema.name }}:</h2>
+  
+  <ul>
+    <li *ngFor="let movie of movies">{{ movie.name }} <br/>{{movie.dateTime}}<br/>{{movie.duration}}min</li>
+
+  </ul>
+</div> -->
+<div>
+  <select (change)="onCinemaChange($event)">
+    <option value="">Select a cinema</option>
+    <option *ngFor="let cinema of cinemas" [value]="cinema._id">{{ cinema.name }}</option>
+  </select>
+  
+  <h2 *ngIf="selectedCinema">Movies in {{ selectedCinema.name }}:</h2>
+  
+  <table *ngIf="selectedCinema">
+    <thead>
+      <tr>
+        <th>Movie Name</th>
+        <th>Date & Time</th>
+        <th>Movie Duration (min)</th>
+        <th>Cinema Name</th>
+        <th>Delete</th>
+
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let movie of movies" >
+        <td>{{ movie.name }}</td>
+        <td>{{ movie.dateTime }}</td>
+        <td>{{ movie.duration }}</td>
+        <td>{{ selectedCinema.name }}</td>
+
+
+        <td><button (click)="onDelete(movie)">X</button></td>
+
+
+      </tr>
+    </tbody>
+  </table>
+</div>
