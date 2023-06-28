@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "6400ea34c14b3b8e19029793"
+  },
+  "name": "Cineplex",
+  "movieId": "[\"6400eaabc14b3b8e19029797\", \"6400eaabc14b3b8e19029798\"]"
+},{
+  "_id": {
+    "$oid": "6400ea65c14b3b8e19029794"
+  },
+  "name": "Fox Theatre ",
+  "movieId": "[\"6400eaabc14b3b8e19029797\", \"6400eaabc14b3b8e19029798\"]"
+},{
+  "_id": {
+    "$oid": "6400ea7cc14b3b8e19029795"
+  },
+  "name": "Bloor Cinema "
+},{
+  "_id": {
+    "$oid": "64021fdfc14b3b8e190297ae"
+  },
+  "name": "Theatre ",
+  "movieId": "123456fgh98dh"
+}]

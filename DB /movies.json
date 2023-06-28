@@ -1,0 +1,93 @@
+[{
+  "_id": {
+    "$oid": "6400eaabc14b3b8e19029797"
+  },
+  "name": "Forrest Gump",
+  "dateTime": {
+    "$date": {
+      "$numberLong": "1677780000000"
+    }
+  },
+  "duration": 90,
+  "cinemaId": "6400ea34c14b3b8e19029793"
+},{
+  "_id": {
+    "$oid": "6400ebb7c14b3b8e19029798"
+  },
+  "name": "Dark Knight",
+  "dateTime": {
+    "$date": {
+      "$numberLong": "1677873600000"
+    }
+  },
+  "duration": 95,
+  "cinemaId": "6400ea65c14b3b8e19029794"
+},{
+  "_id": {
+    "$oid": "6400ebdbc14b3b8e19029799"
+  },
+  "name": "Pulp Fiction",
+  "dateTime": {
+    "$date": {
+      "$numberLong": "1677967200000"
+    }
+  },
+  "duration": 100,
+  "cinemaId": "6400ea7cc14b3b8e19029795"
+},{
+  "_id": {
+    "$oid": "6400f0b056ac1e292da3b259"
+  },
+  "name": "Dark Knight",
+  "dateTime": "Fri Mar 03 2023 15:00:00 GMT-0500 (Eastern Standard Time)",
+  "duration": 95,
+  "cinemaId": "6400ea7cc14b3b8e19029795"
+},{
+  "_id": {
+    "$oid": "6400f10156ac1e292da3b25b"
+  },
+  "name": "Dark Knight555",
+  "dateTime": "Fri Mar 17 2023 15:00:00 GMT-0500 (Eastern Standard Time)",
+  "duration": 950,
+  "cinemaId": "6400ea65c14b3b8e19029794"
+},{
+  "_id": {
+    "$oid": "64036135e55e5d8d0ba74740"
+  },
+  "name": "Forrest Gump15",
+  "dateTime": "Thu Mar 02 2023 13:00:00 GMT-0500 (Eastern Standard Time)",
+  "duration": 900,
+  "cinemaId": "6400ea65c14b3b8e19029794"
+},{
+  "_id": {
+    "$oid": "64036bfee55e5d8d0ba74746"
+  },
+  "name": "test",
+  "dateTime": "2023-06-07T12:00:00",
+  "duration": 60,
+  "cinemaId": "6400ea34c14b3b8e19029793"
+},{
+  "_id": {
+    "$oid": "640374ade55e5d8d0ba74785"
+  },
+  "name": "Ant-Man",
+  "dateTime": "2023-04-01T 14:00:00",
+  "duration": 140,
+  "cinemaId": "64021fdfc14b3b8e190297ae"
+},{
+  "_id": {
+    "$oid": "640374d3e55e5d8d0ba74787"
+  },
+  "name": "M3GAN",
+  "dateTime": "2023-04-01T 19:00:00",
+  "duration": 160,
+  "cinemaId": "6400ea34c14b3b8e19029793"
+},{
+  "_id": {
+    "$oid": "640374fbe55e5d8d0ba74789"
+  },
+  "name": "All That Breathes",
+  "dateTime": "2023-03-30T16:00:00",
+  "duration": 130,
+  "cinemaId": "64021fdfc14b3b8e190297ae"
+}]
